@@ -1,3 +1,53 @@
+--==============================================================================
+-- PROYECTO BASES DE DATOS 1 - GRUPO 4
+-- GESTION ACADEMICA UNIVERSITARIA
+--==============================================================================
+-- ARCHIVO        : modelo_v01_generado.sql
+-- RESPONSABLE    : Jorge
+-- OBJETIVO       : Crear el modelo relacional base del sistema academico,
+--                  incluyendo tablas, claves primarias, claves foraneas,
+--                  restricciones UNIQUE y restricciones CHECK.
+--
+-- EJECUTAR COMO  : Usuario propietario del esquema.
+--                  Usuario: ACADEMICO_G4
+--
+-- ESQUEMA ACTUAL : ACADEMICO_G4
+--
+-- PRECONDICIONES :
+--   1. Oracle Database 21c XE debe estar iniciado.
+--   2. Debe existir el tablespace ACADEMICO_DATA.
+--   3. Debe existir el usuario ACADEMICO_G4.
+--   4. ACADEMICO_G4 debe tener cuota sobre ACADEMICO_DATA.
+--   5. ACADEMICO_G4 debe tener privilegios para crear tablas
+--      y objetos asociados.
+--   6. Las tablas del modelo no deben existir previamente.
+--
+-- DEPENDENCIAS   :
+--   sql/00_setup/001_tablespace.sql
+--   sql/00_setup/002_schema.sql
+--   sql/00_setup/003_usuarios.sql
+--
+-- RESULTADO ESPERADO:
+--   - 10 tablas creadas.
+--   - Claves primarias creadas.
+--   - Claves foraneas creadas.
+--   - Restricciones UNIQUE creadas.
+--   - Restricciones CHECK creadas.
+--   - Modelo base listo para carga de datos y pruebas.
+--
+-- NO EJECUTAR SI :
+--   - Las tablas del modelo ya existen en ACADEMICO_G4.
+--
+-- SIGUIENTE SCRIPT:
+--   sql/00_setup/004_permisos.sql
+--
+-- NOTA:
+--   El cuerpo principal de este archivo fue generado mediante
+--   Oracle SQL Developer Data Modeler 24.3.1.351.0831.
+--   No modificar manualmente el DDL sin actualizar también
+--   el modelo fuente en Data Modeler.
+--==============================================================================
+
 -- Generado por Oracle SQL Developer Data Modeler 24.3.1.351.0831
 --   en:        2026-09-13 11:31:08 CST
 --   sitio:      Oracle Database 21c
