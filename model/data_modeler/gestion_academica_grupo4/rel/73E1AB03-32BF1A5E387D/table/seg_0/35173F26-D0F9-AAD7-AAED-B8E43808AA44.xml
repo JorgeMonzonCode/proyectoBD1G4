@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="35173F26-D0F9-AAD7-AAED-B8E43808AA44" name="HORARIO">
+<createdBy>jorge</createdBy>
+<createdTime>2026-09-13 16:27:47 UTC</createdTime>
+<ownerDesignName>gestion_academica_grupo4</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_HORARIO" id="19ECAAFE-4AA8-D740-694C-D1966174F335">
+<createdBy>jorge</createdBy>
+<createdTime>2026-09-13 16:28:16 UTC</createdTime>
+<ownerDesignName>gestion_academica_grupo4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_SECCION" id="8BA5A307-C626-E6FF-A6EE-E37BF607F2AB">
+<createdBy>jorge</createdBy>
+<createdTime>2026-09-13 16:28:46 UTC</createdTime>
+<ownerDesignName>gestion_academica_grupo4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4F8C9255-F636-E0EA-16B9-FB52E3479CBB" referredColumn="25AE07AD-B1ED-FF5B-6FBD-7960CFAB6E5C"/>
+</associations>
+</Column>
+<Column name="DIA_SEMANA" id="8C8B6D13-515E-839F-EFE4-3BA1BB05CB28">
+<createdBy>jorge</createdBy>
+<createdTime>2026-09-13 16:29:11 UTC</createdTime>
+<ownerDesignName>gestion_academica_grupo4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HORA_INICIO" id="B2917492-AFBC-6CA9-0799-F9E5CD552E68">
+<createdBy>jorge</createdBy>
+<createdTime>2026-09-13 16:29:31 UTC</createdTime>
+<ownerDesignName>gestion_academica_grupo4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<ownDataTypeParameters>5 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HORA_FIN" id="20694C1D-95F9-F903-0AD8-1F333CED9CE7">
+<createdBy>jorge</createdBy>
+<createdTime>2026-09-13 16:29:49 UTC</createdTime>
+<ownerDesignName>gestion_academica_grupo4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<ownDataTypeParameters>5 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AULA" id="ACD37FCC-CD8B-0AA9-22F4-F0C446AF3BC7">
+<createdBy>jorge</createdBy>
+<createdTime>2026-09-13 16:30:11 UTC</createdTime>
+<ownerDesignName>gestion_academica_grupo4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="70FB06E1-D079-039B-2DFC-7E08612CCF91" name="PK_HORARIO_CODIGO">
+<createdBy>jorge</createdBy>
+<createdTime>2026-09-13 16:28:16 UTC</createdTime>
+<ownerDesignName>gestion_academica_grupo4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="19ECAAFE-4AA8-D740-694C-D1966174F335"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E754FC5A-CF4F-DA90-156B-B2EF7C2D8C4C" name="FK_HORARIO_SECCION">
+<createdBy>jorge</createdBy>
+<createdTime>2026-09-13 17:13:30 UTC</createdTime>
+<ownerDesignName>gestion_academica_grupo4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8BA5A307-C626-E6FF-A6EE-E37BF607F2AB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_HORARIO_DIA" directorySegmentName="seg_0" id="5154418D-5A72-2204-FA27-C619F3B528FE">
+<createdBy>jorge</createdBy>
+<createdTime>2026-09-13 16:30:41 UTC</createdTime>
+<ownerDesignName>gestion_academica_grupo4</ownerDesignName>
+<rule><![CDATA[DIA_SEMANA IN (
+    'LUNES',
+    'MARTES',
+    'MIERCOLES',
+    'JUEVES',
+    'VIERNES',
+    'SABADO'
+)]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

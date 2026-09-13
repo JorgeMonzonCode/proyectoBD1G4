@@ -1,8 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="73E1AB03-13A5-E36C-EB15-32BF1A5E387D" mainViewID="F01334DC-3CB9-128E-C0BC-57E5D92A01AD">
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="relational_gestion_academica_g4" id="73E1AB03-13A5-E36C-EB15-32BF1A5E387D" mainViewID="F01334DC-3CB9-128E-C0BC-57E5D92A01AD">
 <createdBy>jorge</createdBy>
 <createdTime>2026-09-13 15:46:10 UTC</createdTime>
 <ownerDesignName>gestion_academica_grupo4</ownerDesignName>
 <shouldBeOpen>false</shouldBeOpen>
-<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+<selectedRDBMSSite>01F6E6D1-21D0-CFBD-ABDD-3988D1813575</selectedRDBMSSite>
 </relationalModel>

@@ -1,0 +1,167 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="727372AF-73CA-4556-5127-41FAB0B7226F" name="SECCION">
+<createdBy>jorge</createdBy>
+<createdTime>2026-09-13 16:23:17 UTC</createdTime>
+<ownerDesignName>gestion_academica_grupo4</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_SECCION" id="25AE07AD-B1ED-FF5B-6FBD-7960CFAB6E5C">
+<createdBy>jorge</createdBy>
+<createdTime>2026-09-13 16:23:42 UTC</createdTime>
+<ownerDesignName>gestion_academica_grupo4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_CURSO" id="C1D074BB-75F9-3096-A263-0634A0C2D16B">
+<createdBy>jorge</createdBy>
+<createdTime>2026-09-13 16:24:24 UTC</createdTime>
+<ownerDesignName>gestion_academica_grupo4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F164B9D2-F94A-276A-0A31-C44EBA0BDD6B" referredColumn="7D0932D8-977D-AF58-EB8E-4A4C94F28F60"/>
+</associations>
+</Column>
+<Column name="ID_DOCENTE" id="4614D46B-3435-1530-D94D-35864AA6F7F3">
+<createdBy>jorge</createdBy>
+<createdTime>2026-09-13 16:24:42 UTC</createdTime>
+<ownerDesignName>gestion_academica_grupo4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7ACFFFC1-8CE5-A282-FA45-FEC61FB692D3" referredColumn="B0FDD655-05F0-30ED-4D30-638ADCDB7457"/>
+</associations>
+</Column>
+<Column name="ID_PERIODO" id="26A67238-05DD-BDFE-6353-5AA93714909B">
+<createdBy>jorge</createdBy>
+<createdTime>2026-09-13 16:57:33 UTC</createdTime>
+<ownerDesignName>gestion_academica_grupo4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B1B436FE-EFCA-5FA2-15E5-17A21C0E824A" referredColumn="DB4226BE-070D-D311-7223-8AA0411D7687"/>
+</associations>
+</Column>
+<Column name="CODIGO_SECCION" id="AAA0980E-B8A4-1873-6EA4-4C8B49DA0466">
+<createdBy>jorge</createdBy>
+<createdTime>2026-09-13 16:25:06 UTC</createdTime>
+<ownerDesignName>gestion_academica_grupo4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUPO_MAXIMO" id="3453EAD5-9BA6-4C61-4F86-72F3D6856D53">
+<createdBy>jorge</createdBy>
+<createdTime>2026-09-13 16:25:26 UTC</createdTime>
+<ownerDesignName>gestion_academica_grupo4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUPO_DISPONIBLE" id="C08CC3D0-A2DD-8699-DDE4-28AD8AF79F1C">
+<createdBy>jorge</createdBy>
+<createdTime>2026-09-13 16:25:45 UTC</createdTime>
+<ownerDesignName>gestion_academica_grupo4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO" id="538013DB-C975-9A69-0FA8-9098964182A2">
+<createdBy>jorge</createdBy>
+<createdTime>2026-09-13 16:26:06 UTC</createdTime>
+<ownerDesignName>gestion_academica_grupo4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4FE11592-3AAC-B54B-9A07-5236F770D65F" name="PK_SECCION_CODIGO">
+<createdBy>jorge</createdBy>
+<createdTime>2026-09-13 16:23:42 UTC</createdTime>
+<ownerDesignName>gestion_academica_grupo4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="25AE07AD-B1ED-FF5B-6FBD-7960CFAB6E5C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E4BCB63D-52E9-92D1-19A7-183D10E0713B" name="FK_SECCION_CURSO">
+<createdBy>jorge</createdBy>
+<createdTime>2026-09-13 17:10:58 UTC</createdTime>
+<ownerDesignName>gestion_academica_grupo4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C1D074BB-75F9-3096-A263-0634A0C2D16B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8F6148EA-D1EF-724A-12ED-395297FA939A" name="FK_SECCION_DOCENTE">
+<createdBy>jorge</createdBy>
+<createdTime>2026-09-13 17:11:58 UTC</createdTime>
+<ownerDesignName>gestion_academica_grupo4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4614D46B-3435-1530-D94D-35864AA6F7F3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1D9D2535-3218-D0CB-AA02-3ABE865A243F" name="FK_SECCION_PERIODO">
+<createdBy>jorge</createdBy>
+<createdTime>2026-09-13 17:12:48 UTC</createdTime>
+<ownerDesignName>gestion_academica_grupo4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="26A67238-05DD-BDFE-6353-5AA93714909B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_SECCION_CUPO_MAX" directorySegmentName="seg_0" id="B177C4AF-3803-1049-5D6D-4128D058FFD7">
+<createdBy>jorge</createdBy>
+<createdTime>2026-09-13 16:26:36 UTC</createdTime>
+<ownerDesignName>gestion_academica_grupo4</ownerDesignName>
+<rule><![CDATA[CUPO_MAXIMO > 0]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_SECCION_CUPO_DIS" directorySegmentName="seg_0" id="73C595B2-F786-99CB-A1E3-DB8B7382D73D">
+<createdBy>jorge</createdBy>
+<createdTime>2026-09-13 16:26:58 UTC</createdTime>
+<ownerDesignName>gestion_academica_grupo4</ownerDesignName>
+<rule><![CDATA[CUPO_DISPONIBLE >= 0
+AND CUPO_DISPONIBLE <= CUPO_MAXIMO]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_SECCION_ESTADO" directorySegmentName="seg_0" id="7B3F23FD-4EFE-9A1B-92F4-A9609BE4F53D">
+<createdBy>jorge</createdBy>
+<createdTime>2026-09-13 16:27:13 UTC</createdTime>
+<ownerDesignName>gestion_academica_grupo4</ownerDesignName>
+<rule><![CDATA[ESTADO IN ('ABIERTA', 'CERRADA', 'INACTIVA')]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>
