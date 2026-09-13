@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1B3C2D2B-5452-D25C-42EE-041590115B88" containerWithKeyObject="1A7C4AB0-60FB-56A7-12DD-50A987D62D05" localFKIndex="82C476D0-8807-64E8-77C3-937940BC319B" name="FK_AUDITORIA_INSCRIPCION">
+<createdBy>jorge</createdBy>
+<createdTime>2026-09-13 17:17:32 UTC</createdTime>
+<ownerDesignName>gestion_academica_grupo4</ownerDesignName>
+<referredTableLongName>INSCRIPCION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7EF74DEC-784A-D033-981D-005268C93BDB</referredTableID>
+<keyObject>0E74945A-4696-A500-A6EA-29049E7F5D7A</keyObject>
+<referredKeyID>0E74945A-4696-A500-A6EA-29049E7F5D7A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_INSCRIPCION</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

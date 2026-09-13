@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C8F2733E-25D2-FD59-EA20-1D44FE8920C7" name="DOCENTE">
+<createdBy>jorge</createdBy>
+<createdTime>2026-09-13 16:03:04 UTC</createdTime>
+<ownerDesignName>gestion_academica_grupo4</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_DOCENTE" id="B0FDD655-05F0-30ED-4D30-638ADCDB7457">
+<createdBy>jorge</createdBy>
+<createdTime>2026-09-13 16:03:26 UTC</createdTime>
+<ownerDesignName>gestion_academica_grupo4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_DOCENTE" id="093A5C2F-B245-B44E-9E0C-755C33E3E632">
+<createdBy>jorge</createdBy>
+<createdTime>2026-09-13 16:04:09 UTC</createdTime>
+<ownerDesignName>gestion_academica_grupo4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="14C9AB5C-52E4-812A-B9F5-E53B0961FEA1">
+<createdBy>jorge</createdBy>
+<createdTime>2026-09-13 16:04:33 UTC</createdTime>
+<ownerDesignName>gestion_academica_grupo4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APELLIDO" id="C196819B-0023-96C7-3FBB-714887232323">
+<createdBy>jorge</createdBy>
+<createdTime>2026-09-13 16:04:52 UTC</createdTime>
+<ownerDesignName>gestion_academica_grupo4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMAIL" id="FDF48C1A-5BE6-B596-F011-61B6EE13D8A9">
+<createdBy>jorge</createdBy>
+<createdTime>2026-09-13 16:05:13 UTC</createdTime>
+<ownerDesignName>gestion_academica_grupo4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>120 CHAR</dataTypeSize>
+<ownDataTypeParameters>120 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO" id="A53EFFFD-991C-941F-DB7C-8D4688843AAC">
+<createdBy>jorge</createdBy>
+<createdTime>2026-09-13 16:06:05 UTC</createdTime>
+<ownerDesignName>gestion_academica_grupo4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D71D3CDD-31EE-7870-3F7F-459782563997" name="PK_DOCENTE_CODIGO">
+<createdBy>jorge</createdBy>
+<createdTime>2026-09-13 16:03:26 UTC</createdTime>
+<ownerDesignName>gestion_academica_grupo4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B0FDD655-05F0-30ED-4D30-638ADCDB7457"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4E731281-039B-6B65-C052-BB8508649A20" name="UK_DOCENTE_CODIGO">
+<createdBy>jorge</createdBy>
+<createdTime>2026-09-13 16:04:09 UTC</createdTime>
+<ownerDesignName>gestion_academica_grupo4</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="093A5C2F-B245-B44E-9E0C-755C33E3E632"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BF7A4B3E-9CB6-2C58-8E9E-56CBF347B1C7" name="UK_DOCENTE_EMAIL">
+<createdBy>jorge</createdBy>
+<createdTime>2026-09-13 16:05:30 UTC</createdTime>
+<ownerDesignName>gestion_academica_grupo4</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FDF48C1A-5BE6-B596-F011-61B6EE13D8A9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_DOCENTE_ESTADO" directorySegmentName="seg_0" id="5CF39DC0-26E2-7E6E-72A0-89EA9B3A9A34">
+<createdBy>jorge</createdBy>
+<createdTime>2026-09-13 16:06:17 UTC</createdTime>
+<ownerDesignName>gestion_academica_grupo4</ownerDesignName>
+<rule><![CDATA[ESTADO IN ('ACTIVO', 'INACTIVO')]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

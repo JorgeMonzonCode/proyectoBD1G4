@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="403F4A95-773A-4E4F-57F5-DE89F4E82868" name="SOLICITUD_INSCRIPCION">
+<createdBy>jorge</createdBy>
+<createdTime>2026-09-13 16:31:19 UTC</createdTime>
+<ownerDesignName>gestion_academica_grupo4</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_SOLICITUD" id="3938457D-D019-396C-B8DD-CB298024AA48">
+<createdBy>jorge</createdBy>
+<createdTime>2026-09-13 16:32:05 UTC</createdTime>
+<ownerDesignName>gestion_academica_grupo4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_ESTUDIANTE" id="9081852D-FE11-B17D-2264-BE8E3971DFC3">
+<createdBy>jorge</createdBy>
+<createdTime>2026-09-13 16:32:36 UTC</createdTime>
+<ownerDesignName>gestion_academica_grupo4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E3732F01-60AB-09B5-1A95-3BA10662C762" referredColumn="30B207A6-D25A-160A-78FA-CD475CA8A87A"/>
+</associations>
+</Column>
+<Column name="ID_SECCION" id="EB59F5D0-BC3B-7F45-C1E6-D6076101BE21">
+<createdBy>jorge</createdBy>
+<createdTime>2026-09-13 16:32:50 UTC</createdTime>
+<ownerDesignName>gestion_academica_grupo4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="028F14CE-B152-1DB9-F595-467BC9940731" referredColumn="25AE07AD-B1ED-FF5B-6FBD-7960CFAB6E5C"/>
+</associations>
+</Column>
+<Column name="FECHA_SOLICITUD" id="1817E8FF-6438-55B5-8239-BB53F00E2ABF">
+<createdBy>jorge</createdBy>
+<createdTime>2026-09-13 16:34:16 UTC</createdTime>
+<ownerDesignName>gestion_academica_grupo4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<defaultValue>SYSTIMESTAMP</defaultValue>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO" id="7526FD2A-7C59-4577-B56E-E77113198E6A">
+<createdBy>jorge</createdBy>
+<createdTime>2026-09-13 16:37:47 UTC</createdTime>
+<ownerDesignName>gestion_academica_grupo4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_PROCESADA" id="385A64B8-5F03-DD02-7D9F-5DFF01D86A11">
+<createdBy>jorge</createdBy>
+<createdTime>2026-09-13 16:53:33 UTC</createdTime>
+<ownerDesignName>gestion_academica_grupo4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MENSAJE_RESULTADO" id="CC8D8AD3-CFC6-984B-47AD-F4E40E70DFC0">
+<createdBy>jorge</createdBy>
+<createdTime>2026-09-13 16:54:30 UTC</createdTime>
+<ownerDesignName>gestion_academica_grupo4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250 CHAR</dataTypeSize>
+<ownDataTypeParameters>250 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="90939190-6BD3-F0A1-3AAE-37B1A2ED1781" name="PK_SOLICITUD_CODIGO">
+<createdBy>jorge</createdBy>
+<createdTime>2026-09-13 16:32:05 UTC</createdTime>
+<ownerDesignName>gestion_academica_grupo4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3938457D-D019-396C-B8DD-CB298024AA48"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E888D783-BFDF-FC0A-7443-87A06811DB04" name="FK_SOLICITUD_ESTUDIANTE">
+<createdBy>jorge</createdBy>
+<createdTime>2026-09-13 17:14:16 UTC</createdTime>
+<ownerDesignName>gestion_academica_grupo4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9081852D-FE11-B17D-2264-BE8E3971DFC3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="612A1796-5995-8436-92C9-BBC085E8514B" name="FK_SOLICITUD_SECCION">
+<createdBy>jorge</createdBy>
+<createdTime>2026-09-13 17:15:00 UTC</createdTime>
+<ownerDesignName>gestion_academica_grupo4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EB59F5D0-BC3B-7F45-C1E6-D6076101BE21"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_SOLICITUD_ESTADO" directorySegmentName="seg_0" id="69B5E0C7-5B23-9E23-5A2F-0463BA91B068">
+<createdBy>jorge</createdBy>
+<createdTime>2026-09-13 16:38:07 UTC</createdTime>
+<ownerDesignName>gestion_academica_grupo4</ownerDesignName>
+<rule><![CDATA[ESTADO IN (
+            'PENDIENTE',
+            'PROCESANDO',
+            'PROCESADA',
+            'RECHAZADA'
+        )]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CEACBDE3-C221-260C-3243-016E0A674E4F" name="PERIODO_ACADEMICO">
+<createdBy>jorge</createdBy>
+<createdTime>2026-09-13 16:09:50 UTC</createdTime>
+<ownerDesignName>gestion_academica_grupo4</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PERIODO" id="DB4226BE-070D-D311-7223-8AA0411D7687">
+<createdBy>jorge</createdBy>
+<createdTime>2026-09-13 16:10:21 UTC</createdTime>
+<ownerDesignName>gestion_academica_grupo4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ANIO" id="4B7C47B9-AD31-0473-9B90-A81C72E503E3">
+<createdBy>jorge</createdBy>
+<createdTime>2026-09-13 16:10:38 UTC</createdTime>
+<ownerDesignName>gestion_academica_grupo4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CICLO" id="08A97583-D061-A58C-0A01-84B8FCE1EC2A">
+<createdBy>jorge</createdBy>
+<createdTime>2026-09-13 16:11:12 UTC</createdTime>
+<ownerDesignName>gestion_academica_grupo4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_INICIO" id="F6D8A14D-0149-5456-73CB-5A0D6565924E">
+<createdBy>jorge</createdBy>
+<createdTime>2026-09-13 16:11:34 UTC</createdTime>
+<ownerDesignName>gestion_academica_grupo4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_FIN" id="993A6621-CFE7-8065-2554-5670D7AA4DFE">
+<createdBy>jorge</createdBy>
+<createdTime>2026-09-13 16:11:48 UTC</createdTime>
+<ownerDesignName>gestion_academica_grupo4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO" id="6FA74A6F-803A-6DE6-E17C-2B0B0A9582E2">
+<createdBy>jorge</createdBy>
+<createdTime>2026-09-13 16:12:24 UTC</createdTime>
+<ownerDesignName>gestion_academica_grupo4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ADDA2634-8B70-FC6A-9CF2-8CB94140A369" name="PK_PERIODO_ACADEMICO_CODIGO">
+<createdBy>jorge</createdBy>
+<createdTime>2026-09-13 16:10:21 UTC</createdTime>
+<ownerDesignName>gestion_academica_grupo4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB4226BE-070D-D311-7223-8AA0411D7687"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="676E89E4-041C-3C34-E953-9DBD0AEE0AED" name="UK_PERIODO_ACADEMICO">
+<createdBy>jorge</createdBy>
+<createdTime>2026-09-13 16:14:25 UTC</createdTime>
+<ownerDesignName>gestion_academica_grupo4</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4B7C47B9-AD31-0473-9B90-A81C72E503E3"/>
+<colUsage columnID="08A97583-D061-A58C-0A01-84B8FCE1EC2A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_PERIODO_ACADEMICO_CICLO" directorySegmentName="seg_0" id="2AA8138F-E1E1-C484-D3E0-BA58121F9ECB">
+<createdBy>jorge</createdBy>
+<createdTime>2026-09-13 16:12:49 UTC</createdTime>
+<ownerDesignName>gestion_academica_grupo4</ownerDesignName>
+<rule><![CDATA[CICLO IN (1,2)]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_PERIODO_ACADEMICO_ESTADO" directorySegmentName="seg_0" id="C5631EEB-15C1-117F-3A69-3DC5C78FFA1C">
+<createdBy>jorge</createdBy>
+<createdTime>2026-09-13 16:13:06 UTC</createdTime>
+<ownerDesignName>gestion_academica_grupo4</ownerDesignName>
+<rule><![CDATA[ESTADO IN ('PLANIFICADO', 'ACTIVO', 'FINALIZADO')]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_PERIODO_FECHAS" directorySegmentName="seg_0" id="689AC6DC-0980-C285-458C-08CB2A0D80EE">
+<createdBy>jorge</createdBy>
+<createdTime>2026-09-13 17:21:38 UTC</createdTime>
+<ownerDesignName>gestion_academica_grupo4</ownerDesignName>
+<rule><![CDATA[FECHA_FIN > FECHA_INICIO]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

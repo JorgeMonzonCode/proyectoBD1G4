@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1A7C4AB0-60FB-56A7-12DD-50A987D62D05" name="AUDITORIA_INSCRIPCION">
+<createdBy>jorge</createdBy>
+<createdTime>2026-09-13 16:40:00 UTC</createdTime>
+<ownerDesignName>gestion_academica_grupo4</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_AUDITORIA" id="44B901B3-A0C5-55E9-A107-7B619747807E">
+<createdBy>jorge</createdBy>
+<createdTime>2026-09-13 16:40:29 UTC</createdTime>
+<ownerDesignName>gestion_academica_grupo4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_INSCRIPCION" id="86A50A43-4DE2-7DA2-2FA7-496F0611E118">
+<createdBy>jorge</createdBy>
+<createdTime>2026-09-13 16:41:17 UTC</createdTime>
+<ownerDesignName>gestion_academica_grupo4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1B3C2D2B-5452-D25C-42EE-041590115B88" referredColumn="A33DF114-DD19-1E72-F98F-1FA7A042F397"/>
+</associations>
+</Column>
+<Column name="OPERACION" id="3B1EFC46-F203-8F29-05E6-7E067D691C38">
+<createdBy>jorge</createdBy>
+<createdTime>2026-09-13 16:41:41 UTC</createdTime>
+<ownerDesignName>gestion_academica_grupo4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USUARIO_BD" id="55EC7E78-E23C-7CEB-CA3E-12665AE52B3D">
+<createdBy>jorge</createdBy>
+<createdTime>2026-09-13 16:42:09 UTC</createdTime>
+<ownerDesignName>gestion_academica_grupo4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_OPERACION" id="FDE60F09-C757-D126-4334-F728D73F6BD6">
+<createdBy>jorge</createdBy>
+<createdTime>2026-09-13 16:42:33 UTC</createdTime>
+<ownerDesignName>gestion_academica_grupo4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<defaultValue>SYSTIMESTAMP</defaultValue>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO_ANTERIOR" id="21E07056-6152-702F-8C6E-3BE10A06ADC3">
+<createdBy>jorge</createdBy>
+<createdTime>2026-09-13 16:43:42 UTC</createdTime>
+<ownerDesignName>gestion_academica_grupo4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO_NUEVO" id="03C35DC2-2583-1E5E-2D56-F2F2B8FACED7">
+<createdBy>jorge</createdBy>
+<createdTime>2026-09-13 16:43:58 UTC</createdTime>
+<ownerDesignName>gestion_academica_grupo4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DETALLE" id="A5E53F44-03D1-7CF1-9C6E-8832A798BC31">
+<createdBy>jorge</createdBy>
+<createdTime>2026-09-13 16:44:15 UTC</createdTime>
+<ownerDesignName>gestion_academica_grupo4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 CHAR</dataTypeSize>
+<ownDataTypeParameters>500 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E1EA0B86-4BE3-224E-438D-DB6514B9D512" name="PK_AUDITORIA_CODIGO">
+<createdBy>jorge</createdBy>
+<createdTime>2026-09-13 16:40:29 UTC</createdTime>
+<ownerDesignName>gestion_academica_grupo4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="44B901B3-A0C5-55E9-A107-7B619747807E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="82C476D0-8807-64E8-77C3-937940BC319B" name="FK_AUDITORIA_INSCRIPCION">
+<createdBy>jorge</createdBy>
+<createdTime>2026-09-13 17:17:32 UTC</createdTime>
+<ownerDesignName>gestion_academica_grupo4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="86A50A43-4DE2-7DA2-2FA7-496F0611E118"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_AUDITORIA_OPERACION" directorySegmentName="seg_0" id="1879662E-45FA-5DC0-3823-A0CAF9F68D38">
+<createdBy>jorge</createdBy>
+<createdTime>2026-09-13 16:44:45 UTC</createdTime>
+<ownerDesignName>gestion_academica_grupo4</ownerDesignName>
+<rule><![CDATA[OPERACION IN ('INSERT', 'UPDATE', 'DELETE')]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>
