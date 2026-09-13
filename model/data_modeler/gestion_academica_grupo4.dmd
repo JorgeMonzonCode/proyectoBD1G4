@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="gestion_academica_grupo4" id="349CC532-1DD6-830C-6431-E259D07FD8F9" version="3.5">
+<createdBy>jorge</createdBy>
+<createdTime>2026-09-13 15:46:09 UTC</createdTime>
+<ownerDesignName>gestion_academica_grupo4</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>349CC532-1DD6-830C-6431-E259D07FD8F9</designId>
+</OSDM_Design>
